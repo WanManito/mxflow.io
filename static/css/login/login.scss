@@ -1,0 +1,65 @@
+.login {
+  width: 100%;
+  height: 100%;
+  background-image: url("~s/beijing.jpg");
+  /*background-size: 100% 100%;*/
+  background-size: cover;
+  background-position: center center;
+
+.box {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  /*border: solid 1px salmon;*/
+}
+
+.head {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 55%;
+  top: 50%;
+  left: 50%;
+}
+
+.el-input__inner {
+  padding-left: 40px;
+  color: white;
+  border-radius: 50px;
+  background: none;
+  border-color: rgb(113, 144, 173);
+}
+
+.el-form-item {
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.el-checkbox__input.is-checked + .el-checkbox__label {
+  color: rgb(185, 201, 216);
+}
+
+.logo {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+.title {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  color: white;
+  font-size: 18px;
+}
+
+}
