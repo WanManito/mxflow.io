@@ -1,5 +1,5 @@
 <shapes name="mxgraph.basic">
-  <shape name="4 Point Star" h="92" w="92" aspect="variable" strokewidth="inherit" fillcolor="none" shadow="false">
+  <shape name="4 Point Star" h="92" w="92" aspect="variable" strokewidth="inherit">
     <connections>
       <constraint x="0.5" y="0" perimeter="0" name="N"/>
       <constraint x="0.5" y="1" perimeter="0" name="S"/>
